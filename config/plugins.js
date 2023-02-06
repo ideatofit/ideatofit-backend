@@ -24,7 +24,7 @@ module.exports = ({ env }) => ({
       editor: {
         outputFormat: "html",
         editorConfig: {
-          language: "sk",
+          language: "en",
           height: 500,
           menubar: false,
           extended_valid_elements: "span, img, small",
