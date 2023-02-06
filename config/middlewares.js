@@ -6,10 +6,9 @@ module.exports = [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          'connect-src': ["'self'", 'https:', "*.tinymce.com", "*.tiny.cloud", "blob:"],
-          'img-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
-          'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
           "script-src": ["'self'", "*.tinymce.com", "*.tiny.cloud", "https:"],
+          'connect-src': ["'self'", 'https:', "*.tinymce.com", "*.tiny.cloud", "blob:"],
+          // 'img-src': ["'self'", 'data:', 'blob:', ],
           "img-src": [
             "'self'",
             "*.tinymce.com",
@@ -19,7 +18,9 @@ module.exports = [
             "cdn.jsdelivr.net",
             "strapi.io",
             "s3.amazonaws.com",
+            'res.cloudinary.com'
           ],
+          'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
           "style-src": [
             "'self'",
             "'unsafe-inline'",
@@ -27,8 +28,8 @@ module.exports = [
             "*.tiny.cloud",
           ],
           "font-src": ["'self'", "*.tinymce.com", "*.tiny.cloud"],
-          upgradeInsecureRequests: null,
         },
+        upgradeInsecureRequests: null,
       },
     },
   },
