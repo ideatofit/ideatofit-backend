@@ -8,7 +8,6 @@ module.exports = [
         directives: {
           "script-src": ["'self'", "*.tinymce.com", "*.tiny.cloud", "https:"],
           'connect-src': ["'self'", 'https:', "*.tinymce.com", "*.tiny.cloud", "blob:"],
-          // 'img-src': ["'self'", 'data:', 'blob:', ],
           "img-src": [
             "'self'",
             "*.tinymce.com",
