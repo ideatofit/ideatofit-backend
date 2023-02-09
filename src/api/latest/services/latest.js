@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * trending service
+ * latest service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::trending.trending');
+module.exports = createCoreService('api::latest.latest');

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * trending controller
+ * latest controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::trending.trending');
+module.exports = createCoreController('api::latest.latest');
