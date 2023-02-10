@@ -4,28 +4,17 @@
   "info": {
     "singularName": "video",
     "pluralName": "videos",
-    "displayName": "video"
+    "displayName": "video",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "maxLength": 255,
+    "iframe": {
+      "type": "text",
       "required": true
-    },
-    "thumbnailurl": {
-      "type": "string",
-      "required": true,
-      "maxLength": 255,
-      "unique": false
-    },
-    "redirectto": {
-      "type": "string",
-      "required": true,
-      "maxLength": 255
     }
   }
 }
