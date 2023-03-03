@@ -16,9 +16,10 @@ module.exports = [
             "blob:",
             "cdn.jsdelivr.net",
             "strapi.io",
-            "s3.amazonaws.com"
+            "s3.amazonaws.com",
+            'res.cloudinary.com'
           ],
-          'media-src': ["'self'", 'data:', 'blob:'],
+          'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
           "style-src": [
             "'self'",
             "'unsafe-inline'",
