@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transformations",
+  "info": {
+    "singularName": "transformation",
+    "pluralName": "transformations",
+    "displayName": "transformation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
