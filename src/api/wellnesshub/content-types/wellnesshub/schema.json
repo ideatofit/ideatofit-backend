@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "wellnesshubs",
   "info": {
     "singularName": "wellnesshub",
@@ -12,62 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "wellnushub1": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+    "tab1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tab1.tab1"
     },
-    "wellnesshub2": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+    "tab2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tab2.tab2"
     },
-    "wellnesshub3": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "wellnesshub4": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "wellnesshub5": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "link": {
-      "type": "string",
-      "maxLength": 255,
-      "required": true
+    "tab3": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tab3.tab3"
     }
   }
 }

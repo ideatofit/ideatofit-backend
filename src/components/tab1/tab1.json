@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_tab1_tab1s",
+  "info": {
+    "displayName": "tab1",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "img2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "img3": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "img4": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "img5": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "textonbutton": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "link": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 400,
+      "required": true
+    }
+  }
+}

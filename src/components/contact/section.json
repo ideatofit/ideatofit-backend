@@ -14,7 +14,7 @@
     "gmail": {
       "type": "string",
       "required": true,
-      "regex": "^[a-zA-Z0-9._%+-]+@gmail\\.com$"
+      "regex": ""
     },
     "socialmedia": {
       "type": "component",
