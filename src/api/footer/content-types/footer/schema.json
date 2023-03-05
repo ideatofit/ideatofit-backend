@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.section"
+    },
+    "otherfootercontent": {
+      "displayName": "otherfootercontent",
+      "type": "component",
+      "repeatable": true,
+      "component": "title.otherfootercontent"
+    }
+  }
+}

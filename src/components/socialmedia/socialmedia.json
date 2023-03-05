@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_socialmedia_socialmedias",
+  "info": {
+    "displayName": "socialmedia",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255
+    }
+  }
+}

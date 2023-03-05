@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_title_titles",
+  "info": {
+    "displayName": "title"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "footercontent": {
+      "displayName": "footercontent",
+      "type": "component",
+      "repeatable": true,
+      "component": "footercontent.footercontent"
+    }
+  }
+}

@@ -30,6 +30,19 @@
       "type": "text",
       "required": true,
       "minLength": 10
+    },
+    "button": {
+      "type": "boolean",
+      "default": false
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    },
+    "textonbutton": {
+      "type": "string",
+      "required": false,
+      "maxLength": 22
     }
   }
 }

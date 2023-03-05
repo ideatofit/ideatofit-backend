@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_explore_sections",
+  "info": {
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string",
+      "maxLength": 13,
+      "required": true
+    },
+    "gmail": {
+      "type": "string",
+      "required": true,
+      "regex": "^[a-zA-Z0-9._%+-]+@gmail\\.com$"
+    },
+    "socialmedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "socialmedia.socialmedia"
+    }
+  }
+}

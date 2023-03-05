@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footercontent_footercontents",
+  "info": {
+    "displayName": "footercontent"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

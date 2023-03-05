@@ -4,7 +4,8 @@
   "info": {
     "singularName": "wellnesshub",
     "pluralName": "wellnesshubs",
-    "displayName": "wellnesshub"
+    "displayName": "wellnesshub",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,52 +13,61 @@
   "pluginOptions": {},
   "attributes": {
     "wellnushub1": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "wellnesshub2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "wellnesshub3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "wellnesshub4": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "wellnesshub5": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "link": {
+      "type": "string",
+      "maxLength": 255,
+      "required": true
     }
   }
 }
