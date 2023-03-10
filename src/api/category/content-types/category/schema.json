@@ -39,6 +39,18 @@
       "relation": "manyToMany",
       "target": "api::diet.diet",
       "mappedBy": "categories"
+    },
+    "age_groups": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::age-group.age-group",
+      "mappedBy": "categories"
+    },
+    "recipes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::recipe.recipe",
+      "mappedBy": "categories"
     }
   }
 }
