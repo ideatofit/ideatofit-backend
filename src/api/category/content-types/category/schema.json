@@ -4,7 +4,8 @@
   "info": {
     "singularName": "category",
     "pluralName": "categories",
-    "displayName": "category"
+    "displayName": "category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,12 +28,12 @@
       "inversedBy": "categories"
     },
     "img": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "diets": {
       "type": "relation",
@@ -51,6 +52,11 @@
       "relation": "manyToMany",
       "target": "api::recipe.recipe",
       "mappedBy": "categories"
+    },
+    "interactions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::interaction.interaction"
     }
   }
 }

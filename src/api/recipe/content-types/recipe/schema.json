@@ -80,6 +80,14 @@
       "type": "boolean",
       "required": true,
       "default": false
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "interactions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::interaction.interaction"
     }
   }
 }
