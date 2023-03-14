@@ -44,12 +44,6 @@
       "target": "api::category.category",
       "inversedBy": "diets"
     },
-    "age_groups": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::age-group.age-group",
-      "mappedBy": "diets"
-    },
     "recipes": {
       "type": "relation",
       "relation": "manyToMany",

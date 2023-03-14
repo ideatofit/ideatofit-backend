@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "height_groups",
+  "info": {
+    "singularName": "height-group",
+    "pluralName": "height-groups",
+    "displayName": "HeightGroup",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heightupto": {
+      "type": "integer"
+    }
+  }
+}

@@ -82,6 +82,15 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::gender.gender"
+    },
+    "goal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::goal.goal"
+    },
+    "height": {
+      "type": "integer",
+      "max": 70
     }
   }
 }

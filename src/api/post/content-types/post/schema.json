@@ -59,6 +59,12 @@
       "relation": "manyToMany",
       "target": "api::recipe.recipe",
       "mappedBy": "posts"
+    },
+    "goals": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::goal.goal",
+      "mappedBy": "posts"
     }
   }
 }

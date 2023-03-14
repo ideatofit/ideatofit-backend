@@ -4,7 +4,8 @@
   "info": {
     "singularName": "goal",
     "pluralName": "goals",
-    "displayName": "goal"
+    "displayName": "goal",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -19,6 +20,12 @@
       "relation": "manyToMany",
       "target": "api::recipe.recipe",
       "mappedBy": "goals"
+    },
+    "posts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::post.post",
+      "inversedBy": "goals"
     }
   }
 }
