@@ -4,7 +4,8 @@
   "info": {
     "singularName": "age-group",
     "pluralName": "age-groups",
-    "displayName": "ageGroup"
+    "displayName": "ageGroup",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,18 +14,6 @@
   "attributes": {
     "ageupto": {
       "type": "string"
-    },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "age_groups"
-    },
-    "diets": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::diet.diet",
-      "inversedBy": "age_groups"
     },
     "posts": {
       "type": "relation",
