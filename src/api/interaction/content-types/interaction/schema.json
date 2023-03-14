@@ -4,7 +4,8 @@
   "info": {
     "singularName": "interaction",
     "pluralName": "interactions",
-    "displayName": "interaction"
+    "displayName": "interaction",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,6 +18,17 @@
     "likes": {
       "type": "integer",
       "default": 0
+    },
+    "recipes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::recipe.recipe",
+      "inversedBy": "interactions"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
     }
   }
 }

@@ -86,8 +86,9 @@
     },
     "interactions": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::interaction.interaction"
+      "relation": "manyToMany",
+      "target": "api::interaction.interaction",
+      "mappedBy": "recipes"
     }
   }
 }

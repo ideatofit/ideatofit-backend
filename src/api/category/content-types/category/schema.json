@@ -52,11 +52,6 @@
       "relation": "manyToMany",
       "target": "api::recipe.recipe",
       "mappedBy": "categories"
-    },
-    "interactions": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::interaction.interaction"
     }
   }
 }
